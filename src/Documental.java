@@ -8,13 +8,11 @@
  *
  * @author Usuario
  */
-public class Documental extends Pelicula {
+public class Documental extends Cine {
     
     public String subgenero;
     public String nivelDivulgacion;
-    public String formato;
     
     
-    public void reproducir() {
-    }
+    
 }

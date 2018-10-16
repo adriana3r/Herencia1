@@ -8,7 +8,7 @@
  *
  * @author Usuario
  */
-public class Largometraje extends Pelicula {
+public class Largometraje extends Cine {
     
     public String clasificacion;
     

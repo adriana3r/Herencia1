@@ -9,12 +9,14 @@
  * @author Usuario
  */
 public class Cine {
-    
+ 
     public String tipo;
-    public int duracion;
-        
-     
+    public int duracion;   
+    public String titulo;
+    
     public void pagarEntrada(){
     }
     
+    public void reproducir(){
+    }
 }
