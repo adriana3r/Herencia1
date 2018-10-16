@@ -13,13 +13,10 @@ public class Principal {
         
         Documental docu1 = new Documental();
          
-        //Superclase Cine
+        //Clase padre Cine
         
                 docu1.tipo = "Divulgativo";
                 docu1.duracion = 91;
-        
-        //Clase padre Pelicula
-        
                 docu1.titulo = "Cowspiracy: The Sustainability Secret";
         
         //Subclase
@@ -27,9 +24,18 @@ public class Principal {
                 docu1.subgenero = "Informativo";
                 docu1.nivelDivulgacion = "Gran público";
                 
+               
                 
                 System.out.println(("Tipo de documental: ") +docu1.tipo + '\n' + ("Duración: ") + docu1.duracion + '\n' +("Título: ") +
                         docu1.titulo + '\n' + ("Subgénero: ") + docu1.subgenero + '\n' + ("Nivel de divulgación: ") + docu1.nivelDivulgacion);
-    }
+                
+    }        
+                
+                public void pagarEntrada(){
+                }
     
-}
+                public void reproducir(){
+                }
+    
+    
+    }
